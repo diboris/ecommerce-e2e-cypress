@@ -1,0 +1,23 @@
+name: 'Cypress tests'
+
+on: [ push ]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        device: [ desktop, mobile ]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+
+      - name: Install NodeJS
+        run: npm install
+
+      - name: Run ESLint
+        run: npm run lint
+
+      - name: Run Cypress
+        env:
+          DEVICE: ${{ matrix.device }}
+        run: npm run cypress:run-$DEVICE

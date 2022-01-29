@@ -1,0 +1,20 @@
+{
+  "name": "demoblaze-sample-cypress-project",
+  "private": true,
+  "scripts": {
+    "cypress:open-desktop": "cypress open --config-file=cypress.desktop.json",
+    "cypress:open-mobile": "cypress open --config-file=cypress.mobile.json",
+    "cypress:run-desktop": "cypress run --config-file=cypress.desktop.json",
+    "cypress:run-mobile": "cypress run --config-file=cypress.mobile.json",
+    "lint": "eslint --ext .js ."
+  },
+  "devDependencies": {
+    "@testing-library/cypress": "8.0.2",
+    "cypress": "9.0.0",
+    "cypress-mochawesome-reporter": "2.3.0",
+    "eslint": "^7.32.0",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "faker": "^5.5.3"
+  }
+}

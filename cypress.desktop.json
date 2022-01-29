@@ -1,0 +1,8 @@
+{
+  "viewportWidth": 1440,
+  "viewportHeight": 900,
+  "pageLoadTimeout": 6000,
+  "defaultCommandTimeout": 6000,
+  "reporter": "cypress-mochawesome-reporter",
+  "baseUrl": "https://www.demoblaze.com"
+}
