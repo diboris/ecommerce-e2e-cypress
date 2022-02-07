@@ -1,5 +1,4 @@
-# demoblaze-app-cypress
-
+# demoblaze-app-cypress [![Build Actions Status](https://github.com/diboris/ecommerce-showcase-cypress/actions/workflows/actions.yml/badge.svg)](https://github.com/diboris/ecommerce-showcase-cypress/actions)
 Showcase demoblaze-app automation tests with [Cypress](https://www.cypress.io/) 
 
 ## Run
